@@ -23,6 +23,8 @@ class DeliveryCardTest {
     @Test
     public void successfulAppointmentBooking() {
 
+
+
         LocalDate meetingDate = LocalDate.now().plusDays(4);
         String newDate = meetingDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
         $("[placeholder=\"Город\"]").setValue("Краснодар");// заполнить поле город
